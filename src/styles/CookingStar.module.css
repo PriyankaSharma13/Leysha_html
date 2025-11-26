@@ -1,0 +1,433 @@
+.cookingWithStar {
+    position: relative;
+    padding: 80px 0 60px;
+    z-index: 1;
+}
+
+.cookingWithStar h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000;
+    
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-01.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.cookingWithStar .innerBox {
+    position: relative;
+}
+
+
+.cookingWithStar .innerBox figure {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+    background: none;
+}
+.cookingWithStar .innerBox figure img {
+    transform: inherit;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .cookingWithStar {
+        padding: 40px 0 30px;
+    }
+
+    .cookingWithStar h2 {
+        font-size: 28px;
+        line-height: 34px;
+        background-size: 80px;
+        padding-bottom: 20px;
+    }
+}
+
+/* ---------------CookingStarInA--------------- */
+
+.cookingWithStar1 .innerBox {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 800px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.cookingWithStar1 .cwsCol{
+    padding: 0 5px;
+}
+
+/* ---------------cuisineConnect--------------- */
+
+.cuisineConnect {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    background-image: url("../assets/images/bg-01.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 50%;
+    padding: 80px 0 60px;
+}
+
+
+.cuisineConnect h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-02.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.cuisineConnect p {
+    color: #fff;
+}
+
+.cuisineConnect .innerBox {
+    background: #fff;
+    position: relative;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 100%;
+    padding: 20px 20px 5px;
+}
+
+.cuisineConnect .innerBox figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.cuisineConnect .innerBox ul {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.cuisineConnect .innerBox ul li {
+    font-family: 'Inter_18ptSemiBold';
+    color: #000;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px 10px 0;
+}
+
+.cuisineConnect .innerBox ul li span {
+    color: #be251f;
+    margin: 0 5px 0 0;
+}
+
+
+/* --------------ourApproach-------------- */
+.ourApproach {
+    padding: 80px 0 60px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.ourApproach .inner {
+    text-align: center;
+}
+
+.ourApproach .content {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.ourApproach h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-01.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.ourApproach .subTitle {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.ourApproach .subTitle span {
+    position: relative;
+    text-transform: capitalize;
+    color: #be251f;
+    padding: 10px 20px;
+    background: rgba(175, 53, 39, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'Inter_18ptSemiBold';
+}
+
+.ourApproach ul.counter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ourApproach ul.counter li {
+    list-style: none;
+    color: #000;
+    width: 50%;
+    background: #fbf3f2;
+    text-align: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 15px 15px 15px;
+    font-size: 20px;
+}
+
+.ourApproach ul.counter li span {
+    color: #000;
+    font-family: "DM Serif Display", serif;
+    display: block;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+
+
+/* --------- Contact Section---------- */
+.contactWrap {
+    background: #f0b256;
+    position: relative;
+    z-index: 2;
+    padding: 80px 0 50px;
+}
+
+.contactWrap::before {
+    content: "";
+    background-image: url("../assets/images/about-after-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.contactWrap .contactleft {
+    margin: 0;
+    padding: 0 50px 0 15px;
+    color: #fff;
+}
+
+.contactWrap h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-02.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.contactWrap .contactleft address {
+    padding: 30px 0 0;
+    margin: 0;
+}
+
+.contactWrap .contactBox {
+    margin: 0 0 30px;
+}
+
+.contactWrap .contactBox .icon {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+
+.contactWrap .icon :global(svg) {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    background: #be251f;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.contactWrap .content {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.contactWrap .contactBox .content p:last-child {
+    margin: 0;
+}
+
+.contactWrap .contactBox .content span {
+
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    margin: 0 0 5px;
+}
+
+.contactWrap .contactBox .content a {
+    color: #fff;
+}
+
+.contactWrap .contactBox .content a:hover {
+    color: #be251f;
+}
+
+.contactWrap .contactRight {
+    margin: 0;
+}
+
+.contactWrap .contactPadd {
+    background: #fff;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.08);
+    padding: 30px 35px 30px;
+    transition: 0.3s ease-in;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.contactWrap h3 {
+    color: #000;
+    font-size: 30px;
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.contactWrap form {
+    margin: 0 -15px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactWrap form .formGroup {
+    margin: 0 0 25px;
+}
+
+.contactWrap form>* {
+    padding: 0 15px;
+}
+
+.contactWrap .formControl {
+    background: #f7f7f7;
+    border: 0;
+    box-shadow: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    color: #000;
+    height: 50px;
+    padding: 6px 20px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+.contactWrap .formControl:focus {
+    outline: none; 
+    border: 0;    
+}
+.contactWrap form textarea {
+    height: 120px !important;
+}
+
+.contactWrap .btn {
+    background: #be251f;
+    border: 0;
+    text-decoration: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Inter_18ptSemiBold';
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 12px 25px;
+    overflow: hidden;
+    text-shadow: none;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    min-width: 180px;
+}
+
+.contactWrap .btn:hover {
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.contactWrap .btn:hover:after {
+    width: 100%;
+}
+
+.contactWrap .btn:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background: #000;
+    z-index: -1;
+}

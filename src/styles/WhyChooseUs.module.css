@@ -1,0 +1,107 @@
+.whyChooseUs {
+    position: relative;
+    padding: 90px 0 50px;
+    z-index: 3;
+}
+
+.whyChooseUs  h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-01.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.whyChooseUs .innerBox {
+    position: relative;
+    padding: 13px 28px 30px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease;
+    z-index: 3;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+
+.whyChooseUs .innerBox:before {
+    content: "";
+    position: absolute;
+    top: -87px;
+    left: -38px;
+    width: 185px;
+    height: 185px;
+    border-radius: 100px;
+    background-color: #be251f;
+    transition: all 300ms ease;
+}
+
+.whyChooseUs .innerBox .icon {
+    max-width: 60px;
+    margin: 0 0 50px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+    padding: 7px 0 0;
+}
+
+.whyChooseUs .innerBox .count {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0.2;
+}
+
+.whyChooseUs .innerBox .inner {
+    position: relative;
+}
+
+.whyChooseUs .innerBox h4 {
+    font-size: 24px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.whyChooseUs .innerBox ul {
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.whyChooseUs .innerBox ul li {
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+.whyChooseUs .innerBox:hover, .whyChooseUs .innerBox:hover h4, .whyChooseUs .innerBox:hover .count, .whyChooseUs .innerBox:hover  ul li::before {
+    color: #fff;
+    opacity: 1;
+}
+.whyChooseUs .innerBox:hover:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.whyChooseUs .innerBox ul li::before {
+    content: "\f058";
+    color: #be251f;
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

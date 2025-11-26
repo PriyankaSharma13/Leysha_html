@@ -1,0 +1,319 @@
+.whatWeDo {
+    padding: 80px 0 60px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.content {
+    margin: 0 auto;
+    width: 75%;
+}
+.subTitle{
+    position: relative;
+    margin-bottom: 20px ;
+}
+
+.subTitle span {
+    position: relative;
+    text-transform: capitalize;
+    color: #be251f;
+    padding: 10px 20px;
+    background: rgba(175, 53, 39, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'Inter_18ptSemiBold';
+}
+
+.whatWeDo h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-01.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.whatWeDo p {
+    line-height: 28px;
+    margin: 0 0 15px;
+}
+
+
+.whatWeDo  .infoBox {
+    box-shadow: 0 25px 30px rgb(0 0 0 / 7%);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all 0.35s ease-in-out;
+    background: #fff;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 85px;
+}
+
+.whatWeDo  .infoBox .topArea {
+    position: relative;
+    padding: 50px 37px;
+}
+
+.whatWeDo  .infoBox figure {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    max-width: 80%;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+
+.whatWeDo  .infoBox figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.whatWeDo  .infoBox .topArea p:last-child {
+    margin: 0 0 0;
+}
+
+.whatWeDo  .infoBox .bottomArea {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.whatWeDo  .infoBox .bottomArea a {
+    margin: 0;
+    background: #c1231d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+}
+
+.whatWeDo  .infoBox .bottomArea span {
+    color: #f0b256;
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+
+
+/* -----------AboutSection ---------- */
+.aboutWrap {
+    padding: 80px 0 60px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.aboutWrap  .row {
+    background: #f0b256;
+    color: #fff;
+    margin: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.aboutWrap .aboutLeft {
+    padding: 0;
+}
+
+.aboutWrap .aboutBox{
+    position: relative;
+    height: 100%;
+}
+
+.aboutWrap .aboutBox figure {
+    margin: 0;
+    overflow: hidden;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 100%;
+}
+.aboutWrap .aboutBox figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.aboutWrap .aboutRight {
+    padding: 60px;
+    position: relative;
+}
+
+
+.aboutWrap .aboutRight > * {
+    position: relative;
+    z-index: 3;
+}
+.aboutWrap .aboutrow {
+    background: #f0b256;
+    color: #fff;
+    margin: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.aboutWrap .aboutRight::after {
+    content: "";
+    background-image: url("../assets/images/about-after-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.aboutWrap .subTitle span {
+    background: #fff;
+}
+.subTitle span {
+    position: relative;
+    text-transform: capitalize;
+    color: #be251f;
+    padding: 10px 20px;
+    background: rgba(175, 53, 39, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'Inter_18ptSemiBold';
+}
+
+.aboutWrap h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-02.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.aboutWrap p {
+    margin: 0 0 20px;
+}
+
+.aboutWrap p b {
+    color: #fff;
+}
+
+
+ /* ------------Logo GRID ------------------ */
+.logoGrid {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    background-color: #f0b256;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 80px 0;
+}
+
+.logoGrid:after {
+    content: "";
+    background-image: url("../assets/images/about-after-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.logoGrid .leftGrid {
+    padding: 0 30px 0 0;
+}
+
+.logoGrid h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: auto;
+    background-image: url("../assets/images/shape-02.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 110px;
+    padding: 0 0 30px;
+}
+
+.logoGrid .owlCarouselMask {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logoGrid .item {
+    text-align: center;
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.logoGrid .item figure {
+    padding: 25px 25px 15px;
+    background: #fff;
+    margin: 0;
+}
+
+.logoGrid .item figure img {
+    margin: 0 auto;
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.logoGrid  .item h5 {
+    font-family: 'CabinetGroteskMedium';
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 0 20px;
+    font-size: 14px;
+    font-family: 'Inter_18ptSemiBold';
+    display: none;
+}
+
+.logoGrid  .rightGrid {
+    padding: 0 0 0 30px;
+}

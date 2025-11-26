@@ -1,0 +1,210 @@
+.footer {
+    background: #000;
+    padding: 10px 0 0;
+    position: relative;
+    color: #CACACA;
+}
+.footer::before {
+    content: "";
+    background-image: url("../assets/images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+.footer .progressWrap.activeProgress {
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+.footer .progressWrap {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+     box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+     background: #fff;
+}
+.progressWrap::before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f062";
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    opacity: 0;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progressWrap::after {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f062";
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+    color: #be251f;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.footer .footerCol:nth-child(1) {
+    padding-right: 30px;
+}
+.footer .footerCol {
+    padding: 70px 15px 30px;
+}
+.wg-1 {
+    margin: 0;
+}
+
+.ftLogo {
+    margin: 0 0 20px;
+}
+.footer a {
+    color: #CACACA;
+}
+.footer a:hover {
+    color: #be251f;
+}
+.ftLogo img {
+    max-width: 150px;
+    margin: 0;
+}
+
+.ftIcons a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 15px;
+}
+
+.ftIcons span {
+    color: #fff;
+    background: rgba(250, 250, 250, 0.1);
+    display: inline-block;
+    font-size: 16px;
+    line-height: 44px;
+    margin: 0 3px;
+    height: 44px;
+    text-align: center;
+    width: 44px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.footer .footerCol:nth-child(2) {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.wg1 h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0 25px;
+    position: relative;
+}
+
+.wg1 ul {
+    margin: 0;
+    padding: 0;
+}
+.wg1 ul li {
+    list-style: none;
+    position: relative;
+    margin: 0 0 5px;
+    padding: 0 0 5px 20px;
+    line-height: 28px;
+    display: block;
+}
+
+.wg1 ul li::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    color: inherit;
+}
+
+.wg1 ul li a {
+    display: block;
+}
+
+
+.ftBottom {
+    background-image: url("../assets/images/bg-01.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 50%;
+    color: #fff;
+    margin: 15px 0 0;
+    padding: 23px 0 7px;
+    position: relative;
+    z-index: 2;
+}
+
+.ftBottom  .row {
+    align-items: center;
+}
+
+.ftBottom ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.ftBottom ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 27px;
+    margin: 0 0 15px 30px;
+}
+
+.ftBottom  ul li a {
+    color: #fff;
+}
