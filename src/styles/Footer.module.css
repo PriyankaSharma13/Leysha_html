@@ -132,7 +132,15 @@
     -moz-border-radius: 100%;
     border-radius: 100%;
 }
-
+.ftIcons span:hover {
+    background: #be251f;
+    color: #fff;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
 .footer .footerCol:nth-child(2) {
     padding-right: 30px;
     padding-left: 30px;
